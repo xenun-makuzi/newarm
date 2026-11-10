@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Administrator sign-in | Liberty Arms</title><link rel="stylesheet" href="../assets/css/styles.css"><link rel="stylesheet" href="admin.css"><link rel="icon" href="../logo.jpg" type="image/jpeg">
+</head>
+<body class="admin"><main class="wrap" style="max-width:440px;padding-top:12vh">
+<form id="login-form" class="card"><h1>Administrator sign-in</h1>
+<div id="login-notice" class="notice" hidden>Supabase is not configured. Edit <code>assets/js/config.js</code> (see README).</div>
+<label for="email">Email</label><input id="email" name="email" type="email" autocomplete="username" required>
+<label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+<p><button class="btn dark" type="submit">Sign in</button></p><p id="login-status" class="err" role="status"></p>
+<p class="muted"><a href="../index.html">Back to the website</a></p></form></main>
+<script type="module" src="admin.js"></script></body></html>

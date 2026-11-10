@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Liberty Arms</title><meta name="description" content="Contact Liberty Arms with a general enquiry.">
+<meta property="og:title" content="Contact | Liberty Arms"><meta property="og:description" content="Contact Liberty Arms with a general enquiry."><meta property="og:type" content="website"><meta property="og:site_name" content="Liberty Arms">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="logo.jpg" type="image/jpeg">
+<link rel="apple-touch-icon" href="logo.jpg"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap"><a class="brand" href="index.html"><img src="logo.jpg" alt="Liberty Arms" width="32" height="32"><span>Liberty</span> Arms</a>
+<button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="about.html">About</a></li><li><a href="compliance.html">Compliance</a></li><li><a href="safety.html">Safety</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="account.html">Account</a></li><li><a href="cart.html">Cart<span data-cart-count></span></a></li></ul></nav></div></header>
+<div class="wrap"><div id="setup-notice" class="notice" hidden>Supabase is not configured yet. Edit <code>assets/js/config.js</code> (see README). Showing built-in content only.</div></div>
+<main id="main">
+<section><div class="wrap"><h1>Contact us</h1><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">
+<form id="contact-form" class="card" novalidate><h2>General enquiry</h2>
+<label for="name">Name</label><input id="name" name="name" autocomplete="name" required maxlength="100"><span class="err" data-err="name"></span>
+<label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254"><span class="err" data-err="email"></span>
+<label for="subject">Subject</label><input id="subject" name="subject" required maxlength="150"><span class="err" data-err="subject"></span>
+<label for="message">Message</label><textarea id="message" name="message" rows="6" required maxlength="2000"></textarea><span class="err" data-err="message"></span>
+<div class="hp" aria-hidden="true"><label>Leave this field empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
+<p class="muted">We use your details only to respond to your enquiry. See our <a href="privacy.html">privacy policy</a>.</p>
+<button class="btn dark" type="submit">Send message</button><p id="form-status" role="status"></p></form>
+<div class="card"><h2>Business contact</h2><p>Email: <span data-setting="contact_email">to be published</span><br>Phone: <span data-setting="contact_phone">to be published</span><br>Address: <span data-setting="address">to be published</span><br>Hours: <span data-setting="business_hours">to be published</span></p></div></div></div></section></main>
+<footer class="site"><div class="wrap"><p data-setting="footer_text">© 2026 Liberty Arms. All rights reserved.</p>
+<ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Terms and conditions</a></li><li><a href="admin/login.html">Staff sign-in</a></li></ul></div></footer>
+<script type="module" src="assets/js/main.js"></script><script type="module" src="assets/js/store.js"></script>
+
+</body></html>

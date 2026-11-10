@@ -1,0 +1,9 @@
+project_id = "liberty-arms"
+
+[auth]
+# Customers register on the public site. Admin rights come only from public.user_roles.
+enable_signup = true
+minimum_password_length = 10
+
+[functions.payment-webhook]
+verify_jwt = false
